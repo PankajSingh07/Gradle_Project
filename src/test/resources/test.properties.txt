@@ -1,0 +1,13 @@
+#/Change the WebDriver Path here. Dont Hard code in the code.
+webdriver.chrome.driver=/usr/local/bin/chromedriver
+
+# Dont include @gmail.com in below username otherwise autograding can fail.
+# if user is xyz@gmail.com then set username=xyz
+browser=chrome
+url =http://gmail.com/
+#https://codeshare.io/
+username=automatecomposing
+password=mnbvcxz@123
+#email=pankaj1234@test.com
+email.subject=Testing Social Label
+email.body=Hi, Testing to Automate Composing.
